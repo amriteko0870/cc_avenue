@@ -29,7 +29,7 @@ def login():
 	p_currency = "INR"
 	p_amount = '1.00'
 	p_redirect_url = "https://andaal.com/ccavResponseHandler"
-	p_cancel_url = "https://andaal.com/ccavResponseHandler"
+	p_cancel_url = "https://andaal.com/ccavResponseHandler1"
 	p_language = "EN"
 	# p_billing_name = request.form['billing_name']
 	# p_billing_address = request.form['billing_address']

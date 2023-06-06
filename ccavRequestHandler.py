@@ -24,7 +24,7 @@ def ccavResponseHandler():
 @app.route('/ccavRequestHandler', methods=['GET', 'POST'])
 def login():
 	print('hello')
-	p_merchant_id = request.form['merchant_id']
+	p_merchant_id = "2336508"
 	p_order_id = request.form['order_id']
 	p_currency = request.form['currency']
 	p_amount = request.form['amount']

@@ -28,7 +28,7 @@ def login():
 	p_order_id = "12345"
 	p_currency = "INR"
 	p_amount = '1.00'
-	p_redirect_url = "https://andaal.com/ccavRequestHandler"
+	p_redirect_url = "https://andaal.com/"
 	p_cancel_url = "https://andaal.com/ccavResponseHandler"
 	p_language = "EN"
 	# p_billing_name = request.form['billing_name']

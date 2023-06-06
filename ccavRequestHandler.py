@@ -25,12 +25,12 @@ def ccavResponseHandler():
 def login():
 	print('hello')
 	p_merchant_id = "2336508"
-	p_order_id = request.form['order_id']
-	p_currency = request.form['currency']
-	p_amount = request.form['amount']
-	p_redirect_url = request.form['redirect_url']
-	p_cancel_url = request.form['cancel_url']
-	p_language = request.form['language']
+	p_order_id = "12345"
+	p_currency = "INR"
+	p_amount = '1.00'
+	p_redirect_url = "https://andaal.com/ccavRequestHandler"
+	p_cancel_url = "https://andaal.com/ccavResponseHandler"
+	p_language = "EN"
 	p_billing_name = request.form['billing_name']
 	p_billing_address = request.form['billing_address']
 	p_billing_city = request.form['billing_city']
